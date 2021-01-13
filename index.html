@@ -1,0 +1,110 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8">
+    <meta name="desciption" content="Strona fanów laptopów i akcesoriów IBM ThinkPad" />
+    <link rel="icon" href="./img/IBM_logo.jpg" type="image/x-icon" />
+    <meta name="generator" content="MS Visual Studio" />
+    <meta name="viewport" content="width=device-width"/> 
+    <link rel="stylesheet" type="text/css" href="./Karuzela/jcarousel.css">
+    <script src="./Karuzela/jquery.js"></script>
+    <script src="./Karuzela/jquery_002.js"></script>
+    <script src="./Karuzela/jcarousel.js"></script>
+    <title>
+        IBM ThinkPad
+    </title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img id="obraz_gora" src="./img/IBM_logo2.jpeg" alt="ThinkPad logo" title="ThinkPad logo" /> </a>
+    </header>
+    <div class="navbar">
+        <div class="lewo">
+            <div id="drop1" class="dropdown">
+                <button class="dropbtn">
+                    Laptopy
+                </button>
+                <div class="dropdown-content">
+                    <a href="laptopy.html#seria_200">Seria 200</a>
+                    <a href="laptopy.html#seria_300">Seria 300</a>
+                    <a href="laptopy.html#seria_500">Seria 500</a>
+                    <a href="laptopy.html#seria_600">Seria 600</a>
+                    <a href="laptopy.html#seria_700">Seria 700</a>
+                    <a href="laptopy.html#seria_800">Seria 800</a>
+                    <a href="laptopy.html#seria_T">Seria T</a>
+                    <a href="laptopy.html#seria_R">Seria R</a>
+                    <a href="laptopy.html#seria_A">Seria A</a>
+                    <a href="laptopy.html#seria_Z">Seria Z</a>
+                    <a href="laptopy.html#seria_i">Seria i</a>
+                    <a href="laptopy.html#seria_X">Seria X</a>
+                </div>
+            </div>
+            <div id="drop2" class="dropdown">
+                <button class="dropbtn">
+                    Akcesoria
+                </button>
+                <div class="dropdown-content">
+                    <a href="akcesoria.html#stacje_dyskietek">Stacje dyskietek</a>
+                    <a href="akcesoria.html#stacje_dokujące">Stacje dokujące</a>
+                    <a href="akcesoria.html#pozostale">Pozostałe</a>
+                </div>
+            </div>
+            <a id="o_mnie_float" href="o_mojej_kolekcji.html">O mnie</a>
+        </div>
+        <div id="right_nav">
+            <a href="kontakt.html">Kontakt</a>
+            <a href="sklep.html">Sklep</a>
+            <a href="koszyk.html">Koszyk</a>
+        </div>
+    </div>
+    <p id="wstep">
+        Witam na stronie poświęconej laptopom i akcesoriom do nich firmy IBM.<br /> Zapraszam do zapoznania się z kolekcją!
+    </p>
+    <div class="instead_of_center">
+        <div class="jcarousel-wrapper">
+            <div class="jcarousel" data-jcarousel="true">
+                <ul style="left: -2400px; top: 0px;">
+                    <li><img src="./img/380D.jpg" alt="" width="600" height="380"></li>
+                    <li><img src="./img/570.jpg" alt="" width="600" height="380"></li>
+                    <li><img src="./img/600.jpg" alt="" width="600" height="380"></li>
+                    <li><img src="./img/770.jpg" alt="" width="600" height="380"></li>
+                    <li><img src="./img/ThinkPad_850.png" alt="" width="600" height="380"></li>
+                    <li><img src="./img/ThinkPad_T20.jpg" alt="" width="600" height="380"></li>
+                </ul>
+            </div>
+            <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true">‹</a>
+            <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true">›</a>
+        </div>
+        <div class="galeria_rzad_glowna">
+            <div class="galeria_kolumna">
+                <a href="./img/380D.jpg" target="_parent"><img class="obraz_galeria" src="./img/380D.jpg" alt="IBM ThinkPad 380D" title="IBM ThinkPad 380D" /></a>
+            </div>
+            <div class="galeria_kolumna">
+                <a href="./img/570.jpg" target="_parent"><img class="obraz_galeria" src="./img/570.jpg" alt="IBM ThinkPad 570" title="IBM ThinkPad 570" /></a>
+            </div>
+            <div class="galeria_kolumna">
+                <a href="./img/600.jpg" target="_parent"><img class="obraz_galeria" src="./img/600.jpg" alt="IBM ThinkPad 600" title="IBM ThinkPad 600" /></a>
+            </div>
+            <div class="galeria_kolumna">
+                <a href="./img/770.jpg" target="_parent"><img class="obraz_galeria" src="./img/770.jpg" alt="IBM ThinkPad 770" title="IBM ThinkPad 770" /></a>
+            </div>
+            <div class="galeria_kolumna">
+                <a href="./img/ThinkPad_850.png" target="_parent"><img class="obraz_galeria" src="./img/ThinkPad_850.png" alt="IBM ThinkPad 850" title="IBM ThinkPad 850" /></a>
+            </div>
+            <div class="galeria_kolumna">
+                <a href="./img/ThinkPad_T20.jpg" target="_parent"><img class="obraz_galeria" src="./img/ThinkPad_T20.jpg" alt="IBM ThinkPad T20" title="IBM ThinkPad T20" /></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        if (screen.width > 1050) {
+            document.getElementsByClassName("jcarousel-wrapper")[0].style.display = "block";
+            document.getElementsByClassName("galeria_rzad_glowna")[0].style.display = "none";
+        }
+    </script>
+    <footer>
+        Copyright Wojciech Panfil © Wszelkie Prawa Zastrzeżone
+    </footer>
+</body>
+</html> 
